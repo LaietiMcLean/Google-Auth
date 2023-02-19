@@ -4,6 +4,7 @@
 
 export const environment = {
   production: false,
+  apiUrl: "http://localhost:4200/",
   GOOGLE_ID: "1090664328754-8bobfc3pat785enf9n0p1i9r9hjfopbd.apps.googleusercontent.com",
   GOOGLE_SECRET: "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"
 };
