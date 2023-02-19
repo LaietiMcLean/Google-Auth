@@ -30,7 +30,7 @@ export class LoginComponent implements OnInit {
       google.accounts.id.renderButton(
         //@ts-ignore
         document.getElementById('buttonDiv'),
-        { theme: 'outline', size: 'large', width: '100%' }
+        { theme: 'filled_blue', size: 'medium', width: '100%', display: 'flex' }
       );
       //@ts-ignore
       google.accounts.id.prompt((notification: PromptMomentNotification) => {});

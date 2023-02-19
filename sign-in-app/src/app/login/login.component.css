@@ -1,0 +1,9 @@
+.container {
+  @apply flex items-center justify-between !important;
+}
+.text-google {
+  @apply font-bold !important;
+}
+.btn {
+  @apply flex !important;
+}
